@@ -100,7 +100,9 @@ export default function Home() {
           <h3 className="text-2xl sm:text-3xl font-extrabold">
             {t.home.finalTitle}
           </h3>
-          <p className="mt-2 text-white/70 max-w-2xl">{t.home.finalSubtitle}</p>
+          <p className="mt-2 text-white/70 max-w-2xl">
+            {t.home.finalSubtitle}
+          </p>
 
           <div className="mt-6">
             <Link
@@ -139,15 +141,9 @@ function ImageBlock({ img, title }) {
   return (
     <div className="overflow-hidden rounded-3xl border border-white/10 bg-white/5">
       <div className="relative h-56">
-        <img
-          src={img}
-          alt={title}
-          className="h-full w-full object-cover opacity-85"
-        />
+        <img src={img} alt={title} className="h-full w-full object-cover opacity-85" />
         <div className="absolute inset-0 bg-gradient-to-t from-slate-950/70 to-transparent" />
-        <div className="absolute bottom-4 left-4 text-lg font-semibold">
-          {title}
-        </div>
+        <div className="absolute bottom-4 left-4 text-lg font-semibold">{title}</div>
       </div>
     </div>
   );

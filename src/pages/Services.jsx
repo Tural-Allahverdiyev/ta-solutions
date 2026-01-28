@@ -6,7 +6,7 @@ import dataScience from "../assets/images/data_science.jpg";
 import fullstack from "../assets/images/fullstack-developer.jpg";
 import frontend from "../assets/images/front-end.jpg";
 import backend from "../assets/images/backend.jpg";
-import uiux from "../assets/images/ui-and-ux.jpg";
+import uiux from "../assets/images/UI-and-UX.jpg";
 
 export default function Services() {
   const { t } = useLang();
