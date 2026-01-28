@@ -3,7 +3,7 @@ import { useLang } from "../LanguageProvider";
 
 // şəkillər (səndə var)
 import heroImg from "../assets/images/fullstack-developer.jpg";
-import uiuxImg from "../assets/images/UIUX-Designer.png";
+import uiuxImg from "../assets/images/uiux-designer.png";
 import figmaImg from "../assets/images/figma2.png";
 
 export default function Home() {
